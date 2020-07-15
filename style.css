@@ -1,0 +1,81 @@
+body {
+    background-image: url(assets/images/bg3.jpg)
+}
+
+.container {
+    width: 100%;
+}
+
+.clicker {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.achats {
+    float: right;
+    width: 50%;
+}
+
+h2 {
+
+}
+
+#buttonFraise {
+    background-color: transparent;
+    border: none;
+}
+
+#fraise {
+    width: 350px;
+    height: 350px;
+    transform: rotate(35deg);
+    cursor: pointer;
+}
+
+#fraise:hover {
+    transform: scale(1.1) rotate(25deg);
+}
+
+#multiplier {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 9px 9px rgba(255, 255, 255, 0.445);
+    width: 85%;
+}
+
+#autoclicker {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 9px 9px rgba(255, 255, 255, 0.445);  
+    width: 85%;
+}
+
+#bonus {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 9px 9px rgba(255, 255, 255, 0.445);
+    width: 85%;
+}
