@@ -18,8 +18,24 @@ body {
     width: 50%;
 }
 
-h2 {
+ @font-face {
+     font-family:"School Holc";
+     src: url(assets/fonts/School\ Holic\ Family/School Holi);
 
+ }
+
+
+ 
+
+
+h2 {
+   
+     font-family: 'school Holic 2'
+     font-size: 30px;
+     background: -webkit-linear-gradient(#eee, #333);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  
 }
 
 #buttonFraise {
