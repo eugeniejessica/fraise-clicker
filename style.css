@@ -27,35 +27,27 @@ body {
 }
 
 @font-face {
-     font-family:'School Holic';
-     src: url(assets/fonts/School\ Holic\ 5.otf);
+    font-family: 'Candy_Pop!';
+    src: url(assets/fonts/Candy_Pop!-demo-font.ttf);
 
 }
-
-
- 
-
 
 h2 {
    
-     font-family: 'school Holic';
+    font-family: 'Candy_Pop!',
      font-size: 40px;
      text-align: center;
-     background: -webkit-linear-gradient(#eee, #333);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-  
+     /* color: rgb(212, 147, 6); */
+   
 }
 
-.h2{
+.h2 {
 
-    font-family: 'school Holic';
+    font-family: 'Candy_Pop!',
     font-size: 30px;
-    text-align: left;   
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    text-align: left;
+    /* color: rgb(212, 147, 6);   */
+  
 }
 
 #buttonFraise {
@@ -86,6 +78,8 @@ h2 {
     border-radius: 15px;
     box-shadow: 9px 9px rgba(255, 255, 255, 0.445);
     width: 40%;
+    
+    
 }
 
 #autoclicker {
@@ -117,7 +111,9 @@ h2 {
 }
 
 #counter{
-    text-align: center;
+    /* text-align: center;
+    font-family: 'school Holic'; */
+    font-size: 30px;
     
     
 }
