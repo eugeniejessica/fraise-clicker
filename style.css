@@ -61,6 +61,7 @@ h2 {
 #buttonFraise {
     background-color: transparent;
     border: none;
+    outline: none;
 }
 
 #fraise {
@@ -68,6 +69,9 @@ h2 {
     height: 350px;
     transform: rotate(35deg);
     cursor: pointer;
+    user-select: none;
+    outline: none;
+    border: none;
 }
 
 #fraise:hover {
@@ -109,7 +113,7 @@ h2 {
     cursor: pointer;
     text-align: center;
     color: white;
-    background-color: tomato;
+    background-color: grey;
     border: none;
     border-radius: 15px;
     box-shadow: 9px 9px rgba(255, 255, 255, 0.445);
@@ -127,4 +131,8 @@ width: 200px;
 float: right;
 margin-right: 70px;
 
+}
+
+#timerBonus {
+    border: 1px solid black;
 }
