@@ -7,17 +7,23 @@ body {
 }
 
 .clicker {
+    box-sizing: border-box;
     float: left;
     width: 40%;
     overflow: hidden;
     padding-bottom: 20px;
-    border-style: dotted;
+    border: 40px solid;    
+    border-image: url(assets/images/border1.png) 70 stretch;
+    
 }
 
 .achats {
     float: right;
-    width: 50%;
+    width: 40%;
     border-style: dotted;
+    border: 40px solid;    
+    border-image: url(assets/images/border1.png) 70 stretch;
+    padding-bottom: 80px ;
 }
 
 @font-face {
@@ -33,11 +39,23 @@ body {
 h2 {
    
      font-family: 'school Holic';
-     font-size: 30px;
+     font-size: 40px;
+     text-align: center;
      background: -webkit-linear-gradient(#eee, #333);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
   
+}
+
+.h2{
+
+    font-family: 'school Holic';
+    font-size: 30px;
+    text-align: left;   
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 #buttonFraise {
@@ -67,7 +85,7 @@ h2 {
     border: none;
     border-radius: 15px;
     box-shadow: 9px 9px rgba(255, 255, 255, 0.445);
-    width: 85%;
+    width: 40%;
 }
 
 #autoclicker {
@@ -81,7 +99,7 @@ h2 {
     border: none;
     border-radius: 15px;
     box-shadow: 9px 9px rgba(255, 255, 255, 0.445);  
-    width: 85%;
+    width: 40%;
 }
 
 #bonus {
@@ -95,5 +113,18 @@ h2 {
     border: none;
     border-radius: 15px;
     box-shadow: 9px 9px rgba(255, 255, 255, 0.445);
-    width: 85%;
+    width: 40%;
+}
+
+#counter{
+    text-align: center;
+    
+    
+}
+
+.imgif{
+width: 200px;
+float: right;
+margin-right: 70px;
+
 }
