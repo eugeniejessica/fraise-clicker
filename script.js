@@ -7,6 +7,7 @@ let prixAuto =  70;
 let autoPlus = 1;
 let nbrMulti = 0;
 let nbrAuto = 0;
+let parSec = 0;
 
 /* Bouton principal du clicker, incrémente de 1 par click */
 
@@ -69,6 +70,8 @@ document.getElementById("autoclicker").addEventListener("click", () => {
 
         nbrAuto = nbrAuto + 1;
 
+        parSec = parSec + autoPlus;
+
         setInterval(function(){ counter = counter + autoPlus;document.getElementById("counter").innerHTML = counter;}, 1000);
 
     }
@@ -78,19 +81,23 @@ document.getElementById("autoclicker").addEventListener("click", () => {
     document.getElementById("prixAuto").innerHTML = "prix de l'upgrade : " + prixAuto;
 
     document.getElementById("nbrAuto").innerHTML = "Nombre de fois achetés : " + nbrAuto;
+
+    document.getElementById("parSec").innerHTML = "Fraises par sec : " + parSec;
     
 });
+
+document.getElementById("bonus").disabled = true;
 
 document.getElementById("bonus").addEventListener("click", () => {
 
     let d1 = new Date();
-    fraise = fraise * 100;
+    fraise = fraise * 3;
     let startBonus = setInterval(counterBonus, 1000);
     function counterBonus() {
         let d2 = new Date();
         let dateDiff = d2 - d1;
         if (dateDiff > 30000) {
-            fraise = fraise / 100;
+            fraise = fraise / 3;
             clearInterval(startBonus);
         };
 
