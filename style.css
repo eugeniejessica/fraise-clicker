@@ -8,21 +8,23 @@ body {
 
 .clicker {
     float: left;
-    width: 50%;
+    width: 40%;
     overflow: hidden;
     padding-bottom: 20px;
+    border-style: dotted;
 }
 
 .achats {
     float: right;
     width: 50%;
+    border-style: dotted;
 }
 
- @font-face {
-     font-family:"School Holc";
-     src: url(assets/fonts/School\ Holic\ Family/School Holi);
+@font-face {
+     font-family:'School Holic';
+     src: url(assets/fonts/School\ Holic\ 5.otf);
 
- }
+}
 
 
  
@@ -30,7 +32,7 @@ body {
 
 h2 {
    
-     font-family: 'school Holic 2'
+     font-family: 'school Holic';
      font-size: 30px;
      background: -webkit-linear-gradient(#eee, #333);
      -webkit-background-clip: text;
