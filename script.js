@@ -16,6 +16,26 @@ document.getElementById("buttonFraise").addEventListener("click", () => {
     counter = counter + fraise;
     document.getElementById("counter").innerHTML = counter;
 
+    if(counter >= prixMulti) {
+
+        document.getElementById("multiplier").style.backgroundColor = "green";
+
+    } else {
+
+        document.getElementById("multiplier").style.backgroundColor = "tomato";
+
+    }
+
+    if(counter >= prixAuto) {
+
+        document.getElementById("autoclicker").style.backgroundColor = "green";
+    
+    } else {
+
+        document.getElementById("autoclicker").style.backgroundColor = "tomato";
+
+    }
+
 });
 
 
@@ -23,6 +43,8 @@ document.getElementById("buttonFraise").addEventListener("click", () => {
 /* Bouton multiplier, multiplie par 2 les clicks quand on l'active */
 
 document.getElementById("multiplier").addEventListener("click", () => {
+
+    document.getElementById("multiplier").style.backgroundColor = "tomato";
 
     if(counter < prixMulti) {
 
@@ -53,6 +75,8 @@ document.getElementById("multiplier").addEventListener("click", () => {
 /* Bouton autoclicker, active l'autoclick et fais + 1 toutes les secondes */
 
 document.getElementById("autoclicker").addEventListener("click", () => {
+
+    document.getElementById("autoclicker").style.backgroundColor = "tomato";
 
     if(counter < prixAuto) {
 
