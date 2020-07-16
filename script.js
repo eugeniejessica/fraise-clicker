@@ -43,7 +43,7 @@ document.getElementById("multiplier").addEventListener("click", () => {
 
     document.getElementById("counter").innerHTML = counter;
 
-    document.getElementById("prixMulti").innerHTML = prixMulti;
+    document.getElementById("prixMulti").innerHTML = "prix de l'upgrade : " + prixMulti;
 
     document.getElementById("nbrMulti").innerHTML = "Nombre de fois achetés : " +  nbrMulti;
 
@@ -75,7 +75,7 @@ document.getElementById("autoclicker").addEventListener("click", () => {
 
     document.getElementById("counter").innerHTML = counter;
 
-    document.getElementById("prixAuto").innerHTML = prixAuto;
+    document.getElementById("prixAuto").innerHTML = "prix de l'upgrade : " + prixAuto;
 
     document.getElementById("nbrAuto").innerHTML = "Nombre de fois achetés : " + nbrAuto;
     
