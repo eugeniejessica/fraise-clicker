@@ -1,9 +1,10 @@
 let fraise = 1;
+let multiplier = 1;
 let counter = 0;
 const upgrade = 2;
 const upgradeAuto = 1.20;
 let prixMulti = 40;
-let prixAuto =  70;
+let prixAuto = 70;
 let autoPlus = 1;
 let nbrMulti = 0;
 let nbrAuto = 0;
@@ -12,11 +13,11 @@ let parSec = 0;
 /* Bouton principal du clicker, incrémente de 1 par click */
 
 document.getElementById("buttonFraise").addEventListener("click", () => {
-    
+
     counter = counter + fraise;
     document.getElementById("counter").innerHTML = counter;
 
-    if(counter >= prixMulti) {
+    if (counter >= prixMulti) {
 
         document.getElementById("multiplier").style.backgroundColor = "green";
 
@@ -26,10 +27,10 @@ document.getElementById("buttonFraise").addEventListener("click", () => {
 
     }
 
-    if(counter >= prixAuto) {
+    if (counter >= prixAuto) {
 
         document.getElementById("autoclicker").style.backgroundColor = "green";
-    
+
     } else {
 
         document.getElementById("autoclicker").style.backgroundColor = "tomato";
@@ -46,29 +47,31 @@ document.getElementById("multiplier").addEventListener("click", () => {
 
     document.getElementById("multiplier").style.backgroundColor = "tomato";
 
-    if(counter < prixMulti) {
+    if (counter < prixMulti) {
 
         document.getElementById("multiplier").style.backgroundColor = "grey";
 
-        setTimeout(function(){ document.getElementById("multiplier").style.backgroundColor = "tomato";}, 5000);
-         
+        setTimeout(function () { document.getElementById("multiplier").style.backgroundColor = "tomato"; }, 5000);
+
     } else {
 
-       fraise = fraise * 2;
+        multiplier = multiplier + 1;
 
-       counter = counter - prixMulti;
+        fraise =  multiplier * 2;
 
-       prixMulti = parseInt(prixMulti * upgrade);
+        counter = counter - prixMulti;
 
-       nbrMulti = nbrMulti + 1;
-    
+        prixMulti = parseInt(prixMulti * upgrade);
+
+        nbrMulti = nbrMulti + 1;
+
     }
 
     document.getElementById("counter").innerHTML = counter;
 
     document.getElementById("prixMulti").innerHTML = "prix de l'upgrade : " + prixMulti;
 
-    document.getElementById("nbrMulti").innerHTML = "Nombre de fois achetés : " +  nbrMulti;
+    document.getElementById("nbrMulti").innerHTML = "Nombre de fois achetés : " + nbrMulti;
 
 });
 
@@ -78,13 +81,11 @@ document.getElementById("autoclicker").addEventListener("click", () => {
 
     document.getElementById("autoclicker").style.backgroundColor = "tomato";
 
-    if(counter < prixAuto) {
+    if (counter < prixAuto) {
 
         document.getElementById("autoclicker").style.backgroundColor = "grey";
 
-        setTimeout(function(){ document.getElementById("autoclicker").style.backgroundColor = "tomato";}, 5000);
-
-        let autoPlus = autoPlus + 1;
+        setTimeout(function () { document.getElementById("autoclicker").style.backgroundColor = "tomato"; }, 5000);
 
     } else {
 
@@ -94,9 +95,11 @@ document.getElementById("autoclicker").addEventListener("click", () => {
 
         nbrAuto = nbrAuto + 1;
 
+        autoPlus = autoPlus + 1;
+
         parSec = parSec + autoPlus;
 
-        setInterval(function(){ counter = counter + autoPlus;document.getElementById("counter").innerHTML = counter;}, 1000);
+        setInterval(function () { counter = counter + autoPlus; document.getElementById("counter").innerHTML = counter; }, 1000);
 
     }
 
@@ -107,12 +110,12 @@ document.getElementById("autoclicker").addEventListener("click", () => {
     document.getElementById("nbrAuto").innerHTML = "Nombre de fois achetés : " + nbrAuto;
 
     document.getElementById("parSec").innerHTML = "Fraises par sec : " + parSec;
-    
+
 });
 
 document.getElementById("bonus").disabled = true;
 
-let timerBonus = setInterval(activateBonus,60000);
+let timerBonus = setInterval(activateBonus, 60000);
 
 function activateBonus() {
 
@@ -141,6 +144,6 @@ document.getElementById("bonus").addEventListener("click", () => {
         document.getElementById("timerBonus").innerHTML = "00:" + parseInt(timerDiff / 1000);
 
     };
-    
+
 });
 

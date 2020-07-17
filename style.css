@@ -59,6 +59,9 @@ h2 {
     background-color: transparent;
     border: none;
     outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #fraise {
@@ -69,6 +72,9 @@ h2 {
     user-select: none;
     outline: none;
     border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #fraise:hover {
