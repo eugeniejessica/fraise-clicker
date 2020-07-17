@@ -1,7 +1,7 @@
 let fraise = 1;
 let multiplier = 1;
 let counter = 0;
-const upgrade = 2;
+const upgrade = 1.15;
 const upgradeAuto = 1.20;
 let prixMulti = 40;
 let prixAuto = 70;
@@ -64,6 +64,8 @@ document.getElementById("multiplier").addEventListener("click", () => {
         prixMulti = parseInt(prixMulti * upgrade);
 
         nbrMulti = nbrMulti + 1;
+
+        document.getElementById("multiplier").innerHTML = "x " + fraise;
 
     }
 
