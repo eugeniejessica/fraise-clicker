@@ -27,8 +27,8 @@ body {
 }
 
 @font-face {
-     font-family:'School Holic';
-     src: url(assets/fonts/School\ Holic\ 5.otf);
+     font-family:'Silky Milky';
+     src: url(assets/fonts/Silky-Milky-Regular.otf);
 
 }
 
@@ -38,23 +38,17 @@ body {
 
 h2 {
    
-     font-family: 'school Holic';
+     font-family:'Silky Milky';
      font-size: 40px;
      text-align: center;
-     background: -webkit-linear-gradient(#eee, #333);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
   
 }
 
 .h2{
 
-    font-family: 'school Holic';
+    font-family:'Silky Milky';
     font-size: 30px;
-    text-align: left;   
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-align: left;
     
 }
 
@@ -133,6 +127,15 @@ margin-right: 70px;
 
 }
 
+@font-face {
+    font-family:'LCD Mono';
+    src: url(assets/fonts/LCDM2L__.TTF);
+
+}
+
 #timerBonus {
+    padding-top: 2px;
     border: 1px solid black;
+    font-family:'LCD Mono';
+
 }
