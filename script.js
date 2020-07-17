@@ -115,6 +115,9 @@ document.getElementById("autoclicker").addEventListener("click", () => {
 
 });
 
+
+/* Bouton Bonus, active le bouton après 5min et lance un bonus click x3 pendant 30sec */
+
 document.getElementById("bonus").disabled = true;
 
 let timerBonus = setInterval(activateBonus,300000);
