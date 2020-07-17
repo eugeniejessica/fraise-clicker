@@ -61,7 +61,7 @@ h2 {
 #buttonFraise {
     background-color: transparent;
     border: none;
-    outline: none;
+    outline: none; /* pour enlever le bug dans Chrome */
     display: block;
     margin-left: auto;
     margin-right: auto;
