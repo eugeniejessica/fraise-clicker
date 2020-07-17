@@ -112,7 +112,7 @@ document.getElementById("autoclicker").addEventListener("click", () => {
 
 document.getElementById("bonus").disabled = true;
 
-let timerBonus = setInterval(activateBonus,60000);
+let timerBonus = setInterval(activateBonus,300000);
 
 function activateBonus() {
 
@@ -123,21 +123,35 @@ function activateBonus() {
 
 
 document.getElementById("bonus").addEventListener("click", () => {
+
     document.getElementById("bonus").disabled = true;
+
     document.getElementById("bonus").style.backgroundColor = "grey";
+
     fraise = fraise * 3;
+
     let startBonus = setInterval(counterBonus, 1000);
+
     let timer = 30;
+
     function counterBonus() {
        
         timer -= 1;
+
         if (timer > 9) {
+
             document.getElementById("timerBonus").innerHTML = "00:" + timer;
+
         } else if (timer > 0) {
+
             document.getElementById("timerBonus").innerHTML = "00:0" + timer;
+
         }  else {
+
             document.getElementById("timerBonus").innerHTML = "00:00";
+
             fraise = fraise / 3;
+
             clearInterval(startBonus);
         }
           
