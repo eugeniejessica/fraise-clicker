@@ -128,21 +128,22 @@ function activateBonus() {
 document.getElementById("bonus").addEventListener("click", () => {
     document.getElementById("bonus").disabled = true;
     document.getElementById("bonus").style.backgroundColor = "grey";
-    let d1 = new Date();
     fraise = fraise * 3;
     let startBonus = setInterval(counterBonus, 1000);
+    let timer = 30;
     function counterBonus() {
-        let d2 = new Date();
-        let dateDiff = d2 - d1;
-        console.log(dateDiff);
-        if (dateDiff > 30000) {
+       
+        timer -= 1;
+        if (timer > 9) {
+            document.getElementById("timerBonus").innerHTML = "00:" + timer;
+        } else if (timer > 0) {
+            document.getElementById("timerBonus").innerHTML = "00:0" + timer;
+        }  else {
+            document.getElementById("timerBonus").innerHTML = "00:00";
             fraise = fraise / 3;
             clearInterval(startBonus);
-        };
-        let timerDiff = 30000;
-        timerDiff = (timerDiff - dateDiff);
-        document.getElementById("timerBonus").innerHTML = "00:" + parseInt(timerDiff / 1000);
-
+        }
+          
     };
 
 });
