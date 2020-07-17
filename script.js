@@ -2,7 +2,7 @@ let fraise = 1;
 let counter = 0;
 const upgrade = 2;
 const upgradeAuto = 1.20;
-let prixMulti = 100;
+let prixMulti = 40;
 let prixAuto =  70;
 let autoPlus = 1;
 let nbrMulti = 0;
@@ -144,3 +144,4 @@ document.getElementById("bonus").addEventListener("click", () => {
     };
     
 });
+

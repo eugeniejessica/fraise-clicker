@@ -23,33 +23,37 @@ body {
     border-style: dotted;
     border: 40px solid;    
     border-image: url(assets/images/border1.png) 70 stretch;
-    padding-bottom: 80px ;
+    padding-bottom: 60px ;
 }
 
 @font-face {
-     font-family:'Silky Milky';
-     src: url(assets/fonts/Silky-Milky-Regular.otf);
+    font-family: 'Disko';
+    src: url(assets/fonts/Disko.ttf);
 
 }
 
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(155, 2, 2);
 
- 
-
+}
 
 h2 {
    
-     font-family:'Silky Milky';
+    font-family: 'Disko';
      font-size: 40px;
      text-align: center;
-  
+     color: rgb(3, 51, 3);
+   
 }
 
-.h2{
+.titre2 {
 
-    font-family:'Silky Milky';
+    font-family: 'Disko';
     font-size: 30px;
     text-align: left;
-    
+    /* color: rgb(212, 147, 6);   */
+  
 }
 
 #buttonFraise {
@@ -72,7 +76,10 @@ h2 {
     transform: scale(1.1) rotate(25deg);
 }
 
+
 #multiplier {
+    float: right;
+    font-family: 'Disko';
     display: inline-block;
     padding: 15px 25px;
     font-size: 20px;
@@ -83,10 +90,15 @@ h2 {
     border: none;
     border-radius: 15px;
     box-shadow: 9px 9px rgba(255, 255, 255, 0.445);
-    width: 40%;
+    width: 10%;
+    
+       
 }
 
+
 #autoclicker {
+    float: right;
+    font-family: 'Disko';
     display: inline-block;
     padding: 15px 25px;
     font-size: 20px;
@@ -97,10 +109,13 @@ h2 {
     border: none;
     border-radius: 15px;
     box-shadow: 9px 9px rgba(255, 255, 255, 0.445);  
-    width: 40%;
+    width: 10%;
+    
 }
 
 #bonus {
+    float: right;
+    font-family: 'Disko';
     display: inline-block;
     padding: 15px 25px;
     font-size: 20px;
@@ -111,31 +126,14 @@ h2 {
     border: none;
     border-radius: 15px;
     box-shadow: 9px 9px rgba(255, 255, 255, 0.445);
-    width: 40%;
+    width: 20%;
+    margin-top: 50px;
 }
 
 #counter{
     text-align: center;
+    font-family: 'Disko';
+    font-size: 30px;
     
     
-}
-
-.imgif{
-width: 200px;
-float: right;
-margin-right: 70px;
-
-}
-
-@font-face {
-    font-family:'LCD Mono';
-    src: url(assets/fonts/LCDM2L__.TTF);
-
-}
-
-#timerBonus {
-    padding-top: 2px;
-    border: 1px solid black;
-    font-family:'LCD Mono';
-
 }
