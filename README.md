@@ -10,13 +10,13 @@ Team challenge: **3**
 
 | ++ | + | The Team | + | ++ |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| [Frédéric]([https://github.com/Fbembassat](https://github.com/Fbembassat)) | :bust_in_silhouette: | - | Front-End/Back-End  | - | 
+| [Frédéric]([https://github.com/Fbembassat](https://github.com/Fbembassat) | :bust_in_silhouette: | - | Front-End/Back-End  | - | 
 | ++ | + | :smile: | + | ++ |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| [Olivier]([https://github.com/OlivierPeeters73](https://github.com/OlivierPeeters73)) | :bust_in_silhouette: | - | Front-End/Back-End | - | 
+| [Olivier]([https://github.com/OlivierPeeters73](https://github.com/OlivierPeeters73) | :bust_in_silhouette: | - | Front-End/Back-End | - | 
 | ++ | + | :smile: | + | ++ |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| [Eugénie]([https://github.com/eugeniejessica](https://github.com/eugeniejessica)) | :bust_in_silhouette: | - | Front-End/Back-End   | - | 
+| [Eugénie]([https://github.com/eugeniejessica](https://github.com/eugeniejessica) | :bust_in_silhouette: | - | Front-End/Back-End   | - | 
 
 ## Welcome to our Mission
 This mission is a challenge,  we  had to create a [cookie clicker](https://en.wikipedia.org/wiki/Cookie_Clicker) as a team. 
