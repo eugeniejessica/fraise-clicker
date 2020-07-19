@@ -10,13 +10,13 @@ Team challenge: **3**
 
 | ++ | + | The Team | + | ++ |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| [Frédéric]([https://github.com/Fbembassat](https://github.com/Fbembassat) | :bust_in_silhouette: | - | Front-End/Back-End  | - | 
+| [Frédéric](https://github.com/Fbembassat](https://github.com/Fbembassat) | :bust_in_silhouette: | - | Front-End/Back-End  | - | 
 | ++ | + | :smile: | + | ++ |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| [Olivier]([https://github.com/OlivierPeeters73](https://github.com/OlivierPeeters73) | :bust_in_silhouette: | - | Front-End/Back-End | - | 
+| [Olivier](https://github.com/OlivierPeeters73](https://github.com/OlivierPeeters73) | :bust_in_silhouette: | - | Front-End/Back-End | - | 
 | ++ | + | :smile: | + | ++ |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| [Eugénie]([https://github.com/eugeniejessica](https://github.com/eugeniejessica) | :bust_in_silhouette: | - | Front-End/Back-End   | - | 
+| [Eugénie](https://github.com/eugeniejessica](https://github.com/eugeniejessica) | :bust_in_silhouette: | - | Front-End/Back-End   | - | 
 
 ## Welcome to our Mission
 This mission is a challenge,  we  had to create a [cookie clicker](https://en.wikipedia.org/wiki/Cookie_Clicker) as a team. 
@@ -43,7 +43,8 @@ We had to choose between making a cookie clicker or a chatbot. On our side the d
 
 ## The process
 
-`First:`We chose a theme and the design for our webpage that we drew on paper, as you can see on the picture below.
+`First:`We chose a theme and the design for our webpage that we drew on paper, as you can see on the picture below.   
+
 ![rsz_capt11](https://user-images.githubusercontent.com/66479308/87874603-706da780-c9cb-11ea-847e-673e5be42ff5.png)
 
 `Second:`As you can see our cookie was no longer a cookie but a     
