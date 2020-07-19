@@ -77,7 +77,7 @@ document.getElementById("multiplier").addEventListener("click", () => {
 
 });
 
-/* Bouton autoclicker, active l'autoclick et fais + 1 toutes les secondes */
+/* Bouton autoclicker, active l'autoclick et augmente sa valeur à chaque achat */
 
 document.getElementById("autoclicker").addEventListener("click", () => {
 
@@ -115,8 +115,7 @@ document.getElementById("autoclicker").addEventListener("click", () => {
 
 });
 
-
-/* Bouton Bonus, active le bouton après 5min et lance un bonus click x3 pendant 30sec */
+/* Le bonus s'active après 3 minutes de jeu */
 
 document.getElementById("bonus").disabled = true;
 
@@ -129,6 +128,7 @@ function activateBonus() {
 
 }
 
+/* Quand on clique sur le bouton bonus, il s'active et reste actif pendant 30 sec et multiplie les clicks par 3 */
 
 document.getElementById("bonus").addEventListener("click", () => {
 
