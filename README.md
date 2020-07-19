@@ -5,7 +5,7 @@ Team challenge: **3**
 
 * HTML
 * CSS
-* JAVE SCRIPT
+* JAVA SCRIPT
 
 
 | ++ | + | The Team | + | ++ |
